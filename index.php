@@ -21,7 +21,11 @@ if (isset($_GET['logout'])) {
 	$Connector = getInstance();
 	$Connector->logout();
 }
+?>
 
+<!DOCTYPE html>
+
+<?php
 if (isset($_GET['loggedin'])) {
 	echo 'LOGIN: You have been logged in into fandist<br /><br />';
 }
