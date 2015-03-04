@@ -1,0 +1,3 @@
+[submodule "Fandist.Api.Wrapper"]
+    path = Fandist.Api.Wrapper
+    url = https://github.com/digitalanimal/Fandist.Api.Wrapper
