@@ -31,7 +31,7 @@ else if (isset($_GET['loggedout'])) {
 
 ?>
 
-<iframe src="http://check.fandi.st/display/test" height="300" width="100%"></iframe>
+<iframe src="https://jonrichard.fandi.st/offers" height="300" width="100%"></iframe>
 
 <form method="get" action="<?=$_SERVER['PHP_SELF'];?>">
 	<input type="text" name="email">
