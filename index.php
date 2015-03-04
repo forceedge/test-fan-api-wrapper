@@ -39,5 +39,5 @@ else if (isset($_GET['loggedout'])) {
 </form>
 <br /><br />
 <form method="get" action="<?=$_SERVER['PHP_SELF'];?>">
-	<input type="submit" value="logout">
+	<input type="submit" name="logout" value="logout">
 </form>
