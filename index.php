@@ -1,6 +1,7 @@
 <?php
 
-echo 'this is working'
+ini_set('display_errors', 1);
+error_reporting(~0);
 
 function getInstance() {
 	require_once __DIR__ . '/Fandist.Api.Wrapper/Src/Core/Connector.php';
@@ -40,5 +41,3 @@ else if (isset($_GET['loggedout'])) {
 <form method="get" action="<?=$_SERVER['PHP_SELF'];?>">
 	<input type="submit" value="logout">
 </form>
-
-?>
