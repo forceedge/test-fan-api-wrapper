@@ -9,7 +9,7 @@ function getInstance() {
 	$apiKey = 'YOUR-APP-KEY';
 	$apiSecret = 'YOUR-APP-SECRET';
 
-	return \Src\Core\Connector::getInstance($apiKey, $apiSecret);
+	return \Src\Core\Connector::getInstance($apiKey, $apiSecret, 'auth.fnd.st');
 }
 
 if (isset($_GET['email'])) {

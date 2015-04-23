@@ -9,7 +9,7 @@ else if (isset($_GET['loggedout'])) {
 }
 ?>
 
-<iframe src="https://seed.fandi.st/seedzalando/embed" height="300" width="100%"></iframe>
+<iframe src="http://nigel.fnd.st/index.php/facebook/embed/http%3A%2F%2Frebirth%2Ftesting%2Ftest-Fan-Api-Wrapper%2Fstyle.css" height="300" width="100%"></iframe>
 
 <form method="get" action="<?=$_SERVER['PHP_SELF'];?>">
     <input type="email" required="required" name="email">
